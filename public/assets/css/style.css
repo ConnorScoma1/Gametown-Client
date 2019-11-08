@@ -118,6 +118,19 @@ img {
     padding: 5rem 0;
 }
 
+.section-b-inner h3 {
+    font-size: 2rem;
+}
+
+.section-b-inner h2 {
+    font-size: 5rem;
+    margin-top: 1rem;
+}
+
+.section-b-inner li {
+    font-size: 1.5rem;
+}
+
 /* Utilities */
 
 .btn {
