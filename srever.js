@@ -5,6 +5,11 @@ const path = require('path');
 
 app.use(express.static('public'))
 
+/*=======================================
+    Setting Up Routes
+=========================================*/
+
+// Main Landing Page Route
 app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname + '/public/index.html'))
     console.log(`sending file from public folder on port ${port}`)
