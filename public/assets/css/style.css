@@ -2,7 +2,7 @@
 :root {
     --primary-color: #424242;
     --secondary-color: #cc0000;
-    --overlay-color: rgba(0,0,0 0.7)
+    --overlay-color: rgba(0, 0, 0, 0.7)
 }
 
 /* General CSS Resets */
@@ -98,6 +98,26 @@ img {
     margin: 1rem 0;
 }
 
+/* Section B  */
+.section-b {
+    position: relative;
+    background: url('../imgs/section_b_wallpaper.jpg') no-repeat bottom center/cover;
+    height: 600px;
+}
+
+.section-b-inner {
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    max-width: 860px;
+    padding: 5rem 0;
+}
+
 /* Utilities */
 
 .btn {
@@ -115,4 +135,13 @@ img {
 .btn:hover {
     background: var(--primary-color);
     transition: .3s;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: var(--overlay-color);
 }
