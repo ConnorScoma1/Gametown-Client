@@ -127,9 +127,12 @@ img {
     margin-top: 1rem;
 }
 
-.section-b-inner li {
+.section-b-inner p {
     font-size: 1.5rem;
+    margin-top: 1rem;
 }
+
+/* Styling for General Store Information */
 
 /* Utilities */
 

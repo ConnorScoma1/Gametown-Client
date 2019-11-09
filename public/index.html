@@ -36,9 +36,9 @@
                     eveniet porro numquam inventore laboriosam?</p>
                     <!-- 137 E Sunset Dr, Waukesha, WI 53189 -->
                     <a 
-                    href="https://maps.google.com/?q=137 E Sunset Dr, Waukesha, WI, 53186"
-                    target="_blank"
-                    class="btn">Get Dirrections</a>
+                        href="https://maps.google.com/?q=137 E Sunset Dr, Waukesha, WI, 53186"
+                        target="_blank"
+                        class="btn">Get Dirrections</a>
             </div>
             <!-- TODO Get Good Showcase PNG -->
             <img src="assets/imgs/showcase-img.png" alt="Gametown">
@@ -50,44 +50,31 @@
         <div class="overlay">
             <div class="section-b-container">
                 <div class="section-b-inner">
-                    <h3>Store Hours</h3>
+                    <h3>All Are Welcome</h3>
                         <h2>Come and play </h2>
-                    <ul>
-                        <li>Sunday 2-7PM</li>
-                        <li>Monday 3-9PM</li>
-                        <li>Tuesday 3-9PM</li>
-                        <li>Wednesday 1-9PM</li>
-                        <li>Thursday 1-9PM</li>
-                        <li>Friday 1-9PM</li>
-                        <li>Saturday 12-9PM</li>
-                    </ul>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Tempore tenetur vel odit cum hic nulla delectus 
+                        impedit est, iure saepe!</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Photo Gallary -->
+    <!-- General Store Information -->
     <section class="section-c">
-        <div class="gallary">
-            <!-- TODO Get Good Images -->
-            <a href="assets/imgs/img1.jpg" class="big">
-                <img src="assets/imgs/img1.jpg" alt="image_1" />
-            </a>
-            <a href="assets/imgs/img2.jpg" class="big">
-                <img src="assets/imgs/img2.jpg" alt="image_2" />
-            </a>
-            <a href="assets/imgs/img3.jpg" class="big">
-                <img src="assets/imgs/img3.jpg" alt="image_3" />
-            </a>
-            <a href="assets/imgs/img4.jpg" class="big">
-                <img src="assets/imgs/img4.jpg" alt="image_4" />
-            </a>
-            <a href="assets/imgs/img5.jpg" class="big">
-                <img src="assets/imgs/img5.jpg" alt="image_5" />
-            </a>
-            <a href="assets/imgs/img6.jpg" class="big">
-                <img src="assets/imgs/img6.jpg" alt="image_6" />
-            </a>
+        <div class="section-c-inner">
+            <h3>Store</h3>
+                <h2>Information</h2>
+                <!-- Store Hours -->
+            <ul class="hours">
+                <li>Sunday: 2-7PM <span class="game-type">Pauper</span></li>
+                <li>Monday: 3-9PM <span class="game-type">Modern</span></li>
+                <li>Tuesday: 3-9PM <span class="game-type">Open Table</span></li>
+                <li>Wednesday: 1-9PM <span class="game-type">Open Table</span></li>
+                <li>Thursday: 1-9PM <span class="game-type">Open Table</span></li>
+                <li>Friday: 1-9PM <span class="game-type">Commander, Draft and Pionner</span></li>
+                <li>Saturday: 12-9PM <span class="game-type">Brawl</span></li>
+            </ul>
         </div>
     </section>
 
@@ -99,8 +86,8 @@
     <script src="assets/js/simple-lightbox.min.js"></script>
     <script>
         $(function() {
-            const $gallary = $('.gallery a').simpleLightbox();
-        })
+        const $gallary = $('.gallary a').simpleLightbox();
+      });
     </script>
 </body>
 </html>
