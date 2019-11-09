@@ -151,6 +151,19 @@ img {
     color: var(--secondary-color)
 }
 
+/* Footer Contect Styling */
+.section-footer {
+    background: var(--primary-color);
+    color: #fff;
+    padding: 4rem 0;
+}
+
+.section-footer .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem
+}
+
 /* Utilities */
 
 .btn {
