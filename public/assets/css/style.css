@@ -59,6 +59,11 @@ img {
     font-size: 2rem;
 }
 
+.logo img {
+    height: 5rem;
+    width: auto;
+}
+
 .navbar .nav {
     justify-self: flex-end;
     display: flex;
