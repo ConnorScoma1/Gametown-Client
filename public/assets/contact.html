@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- <link rel="icon" href="assets/imgs/favicon.png" type="image/x-icon"/> -->
+    <meta name="theme-color" content="#cc0000" />
+
+    <!-- Scripts and Libraries -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/94a4316230.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Catamaran&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!-- Page Tab Title -->
+    <title>Gametown | About</title>
+</head>
+<body>
+        <nav class="navbar">
+                <div class="container">
+                    <!-- TODO Adding Client LOGO -->
+                    <h1 class="logo">
+                        <img src="assets/imgs/Gametown_Logo.jpg" alt="">
+                    </h1>
+                    <!-- TODO Set up backend Routing -->
+                    <ul class="nav">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="about">About</a></li>
+                        <li><a href="contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+
+            <!-- Content Sections for Bio'S -->
+            <h1 class="title-center">About GameTown</h1>
+
+            <section class="section-a">
+                    <div class="container">
+                        <div data-aos="fade-right">
+                            <h1>David Gentry</h1>
+                            <h4>Owner</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Pariatur id quibusdam dolorum aperiam autem iste, 
+                                eveniet porro numquam inventore laboriosam?</p>
+                        </div>
+                        <!-- TODO Get Good Showcase PNG -->
+                        <img
+                            style="border-radius: 50%;"
+                            src="assets/imgs/david.jpg"
+                            alt="GameTown"
+                            data-aos="fade-left"
+                        />
+                    </div>
+                </section>
+
+                <br>
+
+                <section class="section-a">
+                        <div class="container">
+                            <div data-aos="fade-right">
+                                <h1>Tyler Beene</h1>
+                                <h4>Employee</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Pariatur id quibusdam dolorum aperiam autem iste, 
+                                    eveniet porro numquam inventore laboriosam?</p>
+                            </div>
+                            <!-- TODO Get Good Showcase PNG -->
+                            <img
+                                style="border-radius: 50%;"
+                                src="assets/imgs/tyler.jpg"
+                                alt="GameTown"
+                                data-aos="fade-left"
+                            />
+                        </div>
+                    </section>
+
+    <!-- Footer Section -->
+    <footer class="section-footer">
+            <div class="container">
+                <!-- Social Links -->
+                <div>
+                    <h2>
+                        Gametown Waukesha
+                    </h2>
+                
+                    <a href="https://www.facebook.com/GameTownWI/" target="_blank">
+                        <i class="fab fa-facebook fa-2x"></i>
+                    </a>
+                    <a href="https://www.google.com/search?q=gametown+waukesha&rlz=1C1CHBF_enUS793US793&oq=gametown+waukesha+&aqs=chrome.0.35i39j0l2j69i61j69i60j69i61.3576j0j4&sourceid=chrome&ie=UTF-8" target="_blank">
+                        <i class="fab fa-google fa-2x"></i>
+                    </a>
+                </div>
+    
+                <!-- Company Info -->
+                <div>
+                    <h3>Company Info</h3>
+                    <ul>
+                        <li><a href="about">About Us</a></li>
+                        <li><a href="https://maps.google.com/?q=137 E Sunset Dr, Waukesha, WI, 53186" target="_blank">Address</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+    
+                </div>
+    
+                <!-- Contact Info ie Phone, Email, Facebook -->
+                <div>
+                    <h3>Contact</h3>
+                    <ul>
+                        <li> (262) 309-6784</li>
+                        <li>gametown@gmail.com</li>
+                        <li><a href="https://www.facebook.com/GameTownWI/" target="_blank">Facebook</a></li>
+                        <li><a href="contact">Contact Page</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Email Subscribe Link for Email Marketing -->
+                <div>
+                    <h3>Subscribe</h3>
+                        <p>To our News Letter</p>
+                        <form name="email-form" method="POST" data-netlify="true">
+                            <div class="email-form">
+                                <span class="form-control-wrap">
+                                    <input 
+                                        type="email" 
+                                        name="email" 
+                                        id="email" 
+                                        size="40" 
+                                        class="form-control"
+                                        placeholder="Email"
+                                    />
+                                </span>
+                                <button type="submit" class="form-control submit">
+                                    <i class="fas fa-chevron-right"></i>
+                                </button>
+                            </div>
+                        </form>
+                </div>
+    
+            </div>
+        </footer>
+
+    <!-- ====================================
+        CDN'S and Jquery For Photos
+    ===================================== -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="assets/js/simple-lightbox.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
