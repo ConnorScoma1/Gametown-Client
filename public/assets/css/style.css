@@ -306,6 +306,20 @@ img {
     background: rgb(236, 236, 236);
 }
 
+.contact-form .input-area {
+    /* background: var(--secondary-color) */
+    width: 100%;
+    height: 10rem;
+    border: none;
+    border: 1px solid var(--secondary-color);
+    font-family: 'Catamaran', sans-serif;
+    padding-left: 1rem;
+    padding: 1rem;
+    font-size: 1em;
+    background: rgb(236, 236, 236);
+    resize: none;
+}
+
 /* MOBILE RESPONSIVENESSY */
 
 @media(max-width: 700px) {
