@@ -286,6 +286,13 @@ img {
     background: var(--overlay-color);
 }
 
+/* Contact Form AREA */
+.contact-form .label{
+    display: block;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
 /* MOBILE RESPONSIVENESSY */
 
 @media(max-width: 700px) {

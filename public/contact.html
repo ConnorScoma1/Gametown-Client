@@ -15,7 +15,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
     <!-- Page Tab Title -->
-    <title>Gametown | About</title>
+    <title>Gametown | Contact</title>
 </head>
 <body>
         <nav class="navbar">
@@ -35,47 +35,39 @@
 
 
             <!-- Content Sections for Bio'S -->
-            <h1 class="title-center">About GameTown</h1>
+            <h1 class="title-center">Contact GameTown</h1>
 
             <section class="section-a">
                     <div class="container">
                         <div data-aos="fade-right">
-                            <h1>David Gentry</h1>
-                            <h4>Owner</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                Pariatur id quibusdam dolorum aperiam autem iste, 
-                                eveniet porro numquam inventore laboriosam?</p>
+                            <h1>Contact</h1>
+                            <h4>Comment Suggestions</h4>
+                            <!-- Build a Form For Users to Contact Via Email -->
+                            <form class="contact-form" action="POST">
+                                <!-- name -->
+                                <label class="label" for="name">Full Name</label>
+                                <input class="input" name="name" type="text" placeholder="Name" />
+                                <!-- email -->
+                                <label class="label" for="email">Email</label>
+                                <input class="input" name="email" type="email" placeholder="example@example.com" />
+                                <!-- phone -->
+                                <label class="label" for="phone">Phone Number</label>
+                                <input class="input" name="cel" type="tel" placeholder="555-555-5555" />
+                                <!-- comment box -->
+                                <label class="label" for="comment">Comment's</label>
+                                <textarea class="input-area" name="comments" id="comments" placeholder="Comment Here..."></textarea>
+                            </form>
                         </div>
                         <!-- TODO Get Good Showcase PNG -->
                         <img
-                            style="border-radius: 50%;"
-                            src="assets/imgs/david.jpg"
-                            alt="GameTown"
+                            src="assets/imgs/gamefront.jpg"
+                            alt="GameTown front of store"
                             data-aos="fade-left"
                         />
                     </div>
                 </section>
 
-                <br>
-
-                <section class="section-a">
-                        <div class="container">
-                            <div data-aos="fade-right">
-                                <h1>Tyler Beene</h1>
-                                <h4>Employee</h4>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                    Pariatur id quibusdam dolorum aperiam autem iste, 
-                                    eveniet porro numquam inventore laboriosam?</p>
-                            </div>
-                            <!-- TODO Get Good Showcase PNG -->
-                            <img
-                                style="border-radius: 50%;"
-                                src="assets/imgs/tyler.jpg"
-                                alt="GameTown"
-                                data-aos="fade-left"
-                            />
-                        </div>
-                    </section>
+                
 
     <!-- Footer Section -->
     <footer class="section-footer">
