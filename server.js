@@ -15,8 +15,15 @@ app.get("/", function(req, res) {
     res.sendFile(path.join(__dirname + "/public/index.html"));
   });
 
+//   about page routing
+
   app.get("/about", function(req, res) {
     res.sendFile(path.join(__dirname + "/public/about.html"));
+  });
+
+//   contact page routing
+  app.get("/contact", function(req, res) {
+    res.sendFile(path.join(__dirname + "/public/contact.html"));
   });
 
   app.listen(port, () => console.log(`Example app listening on port ${port}!`));
