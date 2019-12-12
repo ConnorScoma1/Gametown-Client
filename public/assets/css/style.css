@@ -117,7 +117,7 @@ img {
 .section-b {
     position: relative;
     background: url('../imgs/section_b_wallpaper.jpg') no-repeat bottom center/cover;
-    height: 600px;
+    height: 400px;
 }
 
 .section-b-inner {
