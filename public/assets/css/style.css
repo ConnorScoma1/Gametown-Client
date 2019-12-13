@@ -303,7 +303,7 @@ img {
     padding-left: 1rem;
     padding: 1rem;
     font-size: 1.2rem;
-    background: rgb(236, 236, 236);
+    background: rgb(255, 255, 255);
 }
 
 .contact-form .input-area {
@@ -316,7 +316,7 @@ img {
     padding-left: 1rem;
     padding: 1rem;
     font-size: 1em;
-    background: rgb(236, 236, 236);
+    background: rgb(255, 255, 255);
     resize: none;
 }
 
